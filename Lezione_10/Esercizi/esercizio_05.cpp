@@ -25,7 +25,7 @@ using namespace std ;
 int main (int argc, char ** argv)
   {
 
-    if (argc < 2)
+    if (argc < 3)
       {
         cerr << "uso: " << argv[0] << " mu_true numero_di_eventi [numero_di_toy = 10000]" << endl ;
         exit (1) ;
